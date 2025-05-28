@@ -3,7 +3,7 @@ import os
 # 파일을 생성할 디렉터리 (현재 폴더로 지정)
 output_dir = './algorithm/'
 
-for i in range(55,65):
+for i in range(50,70):
     filename = f"algorithm_{i}.py"
     filepath = os.path.join(output_dir, filename)
     # 파일이 이미 없으면 새로 생성
