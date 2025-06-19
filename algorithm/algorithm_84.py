@@ -3,7 +3,7 @@ def solution(s):
     dic = {')':'(', '}':'{', ']':'['}
 
     for i in range(len(s)):
-        array = []# 소/중/대괄호
+        array = [ ]# 소/중/대괄호
         count = 0
         for j in range(len(s)):
             idx = (i+j)%len(s)
